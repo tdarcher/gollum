@@ -1,0 +1,14 @@
+Here are some scripts to automate the H2 molecule binding curve on parsons lonsdale or kelvin.
+
+The 3 commands to run are:
+
+
+1. "./make_jobs.sh" # this sets up your calculations 
+2. "sbatch gollum.sh" this runs your calculations 
+
+# wait for the calculations to run ...
+# then run:
+
+3. "get_results.sh | xmgrace -" this plots the E vs d curve
+
+
